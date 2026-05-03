@@ -102,8 +102,8 @@
 #>
 
 Param(
-    [string] $containerName = "",
-    [ValidateSet("UserPassword", "Windows")]
+    [string] $containerName = "BCDEV",
+    [ValidateSet("UserPassword")]
     [string] $auth = "",
     [pscredential] $credential = $null,
     [string] $licenseFileUrl = "",
